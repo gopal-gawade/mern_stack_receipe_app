@@ -39,7 +39,7 @@ const Navbar = ({ mode, setMode }) => {
                 <StartDiv onClick={() => navigate("/")}>
                     <Typography
                         variant="h6"
-                        sx={{ ml: 1, fontWeight: 600, fontFamily: "Poppins" }}
+                        sx={{ ml: 1, fontWeight: 600, fontFamily: "Poppins", cursor:'pointer' }}
                     >
                         Scranory
                     </Typography>

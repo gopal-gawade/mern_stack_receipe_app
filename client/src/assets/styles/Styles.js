@@ -39,6 +39,17 @@ export const CenterColDiv = styled(Box)({
     padding: "8px"
 });
 
+export const StartColDiv = styled(Box)({
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "start",
+    textAlign: "left",
+    flexWrap: "wrap",
+    gap: "2px",
+    padding: "8px"
+});
+
 export const RecipeCard = styled(Card)({
     width: "100%",
     textAlign: "center",
